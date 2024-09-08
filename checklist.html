@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS25 알바 체크리스트</title>
+    <link rel="stylesheet" href="checklist.css">
+</head>
+<body>
+    <div class="container">
+        <h1>GS25 업무 체크리스트</h1>
+        <div class="progress-container">
+            <label>진행도:</label>
+            <progress id="progress-bar" value="0" max="100"></progress>
+            <span id="progress-percentage">0%</span>
+        </div>
+        <form id="checklist-form">
+            <ul>
+                <li><label><input type="checkbox" class="task"> 유니폼과 명찰을 올바르게 착용하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 시재 점검(현금/담배/상품권/토토 등)은 이상 없이 끝나셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> F/F 진열확인 및 유통기한 점검 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 운전면허증 및 신분증 확인을 했나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 유제품 냉장 진열 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 프라이스 카드(일반가격표)와 쇼카드(행사가격표)는 제대로 꽂혀있나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 뜨거운 원컵 진열 체크 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 전자레인지 청결상태 확인하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 튀김기 청소 및 유지 관리 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 라면 국물 및 음식물 쓰레기 재반 청소 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 식사대 낙지 있는지 확인 후 보충하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 커피머신 상태 및 미드스프 확인 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 컵과 빨대 보충 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> (겨울) 찐빵기 기물/진열/폐기 체크 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> (여름) 아이스커피 보충 점검 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 식사대 주변과 바닥 청소 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 외부 진열상품 정리 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 외부 파라솔과 테이블 청소 하셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 아이스크림 냉동 문은 잘 닫혀 있나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 휴지통과 재떨이는 손잡고 닦으셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 점포 앞 쓰레기 주우셨나요?</label></li>
+                <li><label><input type="checkbox" class="task"> 점포 간판등이 켜져 있나요? (오전 끔/오후 켬)</label></li>
+            </ul>
+        </form>
+    </div>
+    <script src="checklist.js"></script>
+</body>
+</html>
